@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #303030;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    background: orange;
+}
+
+#content-dog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    text-align: justify;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#content-dog button {
+    padding: 5px 15px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#content-dog button:hover {
+    background: rgb(120, 88, 27);
+    transition: 0.3s;
+}
+
+#content-random {
+    position: relative;
+    margin-top: 20px;
+    background: orange;
+    padding: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content-random img {
+    height: 100%;
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    bottom: 10px;
+    background: green;
+}
